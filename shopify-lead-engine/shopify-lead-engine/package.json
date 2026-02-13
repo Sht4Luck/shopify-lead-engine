@@ -1,0 +1,28 @@
+{
+  "name": "shopify-lead-engine",
+  "version": "1.0.0",
+  "description": "Ethical AI-powered lead generation for Shopify stores",
+  "private": true,
+  "scripts": {
+    "install:all": "cd backend && npm install && cd ../frontend && npm install",
+    "dev:backend": "cd backend && netlify dev",
+    "dev:frontend": "cd frontend && npm run dev",
+    "build": "cd frontend && npm run build",
+    "deploy": "netlify deploy --prod",
+    "test": "echo 'No tests configured yet'"
+  },
+  "keywords": [
+    "shopify",
+    "lead-generation",
+    "copywriting",
+    "ai",
+    "scraping",
+    "automation"
+  ],
+  "author": "Shopify Lead Engine Contributors",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/yourusername/shopify-lead-engine"
+  }
+}
